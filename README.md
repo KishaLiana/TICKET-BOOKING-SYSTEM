@@ -103,8 +103,8 @@ The system contains the following user interfaces:
 The System must run over the internet, all the hardware shall be required to connect to the internet, computer, phone or tablet.
 
 **Software and communication interface**
-The system is hosted on a server so it requires a scripting language like PHP, etc. The system requires a database to store any transaction made on the system like MYSQL etc.
-The system also requires a domain name space for identification on the internet, the system shall use the HTTP protocol for communication over the internet and a web browser through which a user can be able to access the system.
+- The system is hosted on a server so it requires a scripting language like PHP, etc. The system requires a database to store any transaction made on the system like MYSQL etc.
+- The system also requires a domain name space for identification on the internet, the system shall use the HTTP protocol for communication over the internet and a web browser through which a user can be able to access the system.
 
 # Non-functional Requirements:
 
@@ -118,10 +118,10 @@ The system will not affect data stored outside of its servers nor will it affect
 This application assumes that only the user or whoever is allowed will have access to the phone. a Google email address is required to verify the identity of the user upon opening the app and a password to authenticate the user’s identity’s transaction must be authorized and confirmed before becoming final. To ensure that no fraudulent transactions occur.
 
 **Software Quality Requirements**
-The graphical user interface of the System is to be designed with usability as the priority. The app will be presented and organized in a manner that is both visually appealing and easy for the user to navigate. There will be feedback and visual cues such as notifications to inform users of updates and pop-ups to provide users with instructions.
-To ensure reliability and correctness, there will be zero tolerance for errors in the algorithm that computes and splits expenses between group members. 
-To maintain flexibility and adaptability, the app will take into account situations in which a user loses internet connection or for whatever reason cannot establish a connection with the server. These users will still be able to use the application, but any transactions posted while disconnected will be cached until the connection is restored.
-The system is to be used on all platforms; thus, the software application has the advantage of being portable and convenient to use whenever and wherever. Overall, the app balances both the ease of use and the ease of learning.
+- The graphical user interface of the System is to be designed with usability as the priority. The app will be presented and organized in a manner that is both visually appealing and easy for the user to navigate. There will be feedback and visual cues such as notifications to inform users of updates and pop-ups to provide users with instructions.
+- To ensure reliability and correctness, there will be zero tolerance for errors in the algorithm that computes and splits expenses between group members. 
+- To maintain flexibility and adaptability, the app will take into account situations in which a user loses internet connection or for whatever reason cannot establish a connection with the server. These users will still be able to use the application, but any transactions posted while disconnected will be cached until the connection is restored.
+- The system is to be used on all platforms; thus, the software application has the advantage of being portable and convenient to use whenever and wherever. Overall, the app balances both the ease of use and the ease of learning.
 
 **Maintainable:**
 Each of the modules should be designed in such a way that a new module can easily be integrated with it, that is to say, the time required for a solution or its component to be fixed, changed to increase performance or other qualities, or adapted to a changing environment.

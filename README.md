@@ -80,24 +80,24 @@ In this model, the requirements are itemized into small parts which are incremen
 **A Requirement** is a constraint/property which must be provided by the system to fulfill the system’s and intended user’s needs.
 
 # Functional Requirements: 
-•	The System must be user friendly with clear and unambiguous Graphical User Interface (GUI) which can be navigated and explored with ease.
-•	The System must allow users to sign up and create user accounts.
-•	The system shall allow the customer to view a detailed description of the movies/blockbusters screening at the time with the screening times and cinema hall numbers as well as number of seats available
-•	The system must notify accounts of made payments
-•	The system must notify the customer of complete transaction/ payment
-•	The system should allow the manager to log in to the system using their username and password. 	 
-•	The system should allow employees to log in to the system using their username and password.
-•	The system shall allow the manager to create a new user account.
-•	The system shall allow the manager to change the account password
-•	The system shall allow staff to change the account password.
+-	The System must be user friendly with clear and unambiguous Graphical User Interface (GUI) which can be navigated and explored with ease.
+-	The System must allow users to sign up and create user accounts.
+-	The system shall allow the customer to view a detailed description of the movies/blockbusters screening at the time with the screening times and cinema hall numbers as well as number of seats available
+-	The system must notify accounts of made payments
+-	The system must notify the customer of complete transaction/ payment
+-	The system should allow the manager to log in to the system using their username and password. 	 
+-	The system should allow employees to log in to the system using their username and password.
+-	The system shall allow the manager to create a new user account.
+-	The system shall allow the manager to change the account password
+-	The system shall allow staff to change the account password.
 
 **External Interface Requirements:**
 
 **User interface**
 The system contains the following user interfaces:
-●	Login page for authenticating registered users. This screen should accept user email, password and authenticate against registered with information. It also provides features for new user registration and forgot passwords.
-●	Screening Movies/Blockbusters search page where registered users can search products based on product attributes. User can search by Movie name, brief description, and Movie Genre/category and Movie id. Search should support intuitive features such as type-ahead, synonym support, categorized results grouping and spell correction.
-●	Search results page displays the results of search operation. The results should be paginated with configurable page size.
+-	Login page for authenticating registered users. This screen should accept user email, password and authenticate against registered with information. It also provides features for new user registration and forgot passwords.
+-	Screening Movies/Blockbusters search page where registered users can search products based on product attributes. User can search by Movie name, brief description, and Movie Genre/category and Movie id. Search should support intuitive features such as type-ahead, synonym support, categorized results grouping and spell correction.
+-	Search results page displays the results of search operation. The results should be paginated with configurable page size.
 
 **Hardware interface**
 The System must run over the internet, all the hardware shall be required to connect to the internet, computer, phone or tablet.

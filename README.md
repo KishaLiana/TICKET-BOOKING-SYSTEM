@@ -76,4 +76,59 @@ In this model, the requirements are itemized into small parts which are incremen
 - Due to the sheer lack of formal records, there is misunderstanding, and crucial decisions made during various phases can be misconstrued at any point by different team members.
 
 
-REQUIREMENT SPECIFICATIONS.
+# REQUIREMENT SPECIFICATIONS.
+**A Requirement** is a constraint/property which must be provided by the system to fulfill the system’s and intended user’s needs.
+
+# Functional Requirements: 
+•	The System must be user friendly with clear and unambiguous Graphical User Interface (GUI) which can be navigated and explored with ease.
+•	The System must allow users to sign up and create user accounts.
+•	The system shall allow the customer to view a detailed description of the movies/blockbusters screening at the time with the screening times and cinema hall numbers as well as number of seats available
+•	The system must notify accounts of made payments
+•	The system must notify the customer of complete transaction/ payment
+•	The system should allow the manager to log in to the system using their username and password. 	 
+•	The system should allow employees to log in to the system using their username and password.
+•	The system shall allow the manager to create a new user account.
+•	The system shall allow the manager to change the account password
+•	The system shall allow staff to change the account password.
+
+**External Interface Requirements:**
+
+**User interface**
+The system contains the following user interfaces:
+●	Login page for authenticating registered users. This screen should accept user email, password and authenticate against registered with information. It also provides features for new user registration and forgot passwords.
+●	Screening Movies/Blockbusters search page where registered users can search products based on product attributes. User can search by Movie name, brief description, and Movie Genre/category and Movie id. Search should support intuitive features such as type-ahead, synonym support, categorized results grouping and spell correction.
+●	Search results page displays the results of search operation. The results should be paginated with configurable page size.
+
+**Hardware interface**
+The System must run over the internet, all the hardware shall be required to connect to the internet, computer, phone or tablet.
+
+**Software and communication interface**
+The system is hosted on a server so it requires a scripting language like PHP, etc. The system requires a database to store any transaction made on the system like MYSQL etc.
+The system also requires a domain name space for identification on the internet, the system shall use the HTTP protocol for communication over the internet and a web browser through which a user can be able to access the system.
+
+# Non-functional Requirements:
+
+**Performance Requirements**
+Performance should be Optimal because server queries involve small pieces of data. Changing screens will require very little computation and thus will occur very quickly. Server updates should only take a few seconds as long as the phone can maintain a steady signal.
+
+**Safety Requirements**
+The system will not affect data stored outside of its servers nor will it affect any other applications installed on the user’s phone. It cannot cause any damage to the phone or its internal components. The only potential safety concern associated with this application applies to virtually all handset apps: E-payment system should not be used while operating a vehicle or in any other situation where the user’s attention must be focused elsewhere.
+
+**Security Requirements**
+This application assumes that only the user or whoever is allowed will have access to the phone. a Google email address is required to verify the identity of the user upon opening the app and a password to authenticate the user’s identity’s transaction must be authorized and confirmed before becoming final. To ensure that no fraudulent transactions occur.
+
+**Software Quality Requirements**
+The graphical user interface of the System is to be designed with usability as the priority. The app will be presented and organized in a manner that is both visually appealing and easy for the user to navigate. There will be feedback and visual cues such as notifications to inform users of updates and pop-ups to provide users with instructions.
+To ensure reliability and correctness, there will be zero tolerance for errors in the algorithm that computes and splits expenses between group members. 
+To maintain flexibility and adaptability, the app will take into account situations in which a user loses internet connection or for whatever reason cannot establish a connection with the server. These users will still be able to use the application, but any transactions posted while disconnected will be cached until the connection is restored.
+The system is to be used on all platforms; thus, the software application has the advantage of being portable and convenient to use whenever and wherever. Overall, the app balances both the ease of use and the ease of learning.
+
+**Maintainable:**
+Each of the modules should be designed in such a way that a new module can easily be integrated with it, that is to say, the time required for a solution or its component to be fixed, changed to increase performance or other qualities, or adapted to a changing environment.
+
+**Scalability:**
+The system can handle the highest workloads under which the system will still meet the performance requirements.
+
+**Reliability and Availability**
+The system will be able to run without a failure for a given period under predefined conditions: that is services such as monitoring the availability of the origin infrastructure and rerouting requests when the origin is not available are put in place.
+

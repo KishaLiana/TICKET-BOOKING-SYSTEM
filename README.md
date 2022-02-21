@@ -108,16 +108,16 @@ The System must run over the internet, all the hardware shall be required to con
 
 # Non-functional Requirements:
 
-**Performance Requirements**
+**Performance Requirements:**
 Performance should be Optimal because server queries involve small pieces of data. Changing screens will require very little computation and thus will occur very quickly. Server updates should only take a few seconds as long as the phone can maintain a steady signal.
 
-**Safety Requirements**
+**Safety Requirements:**
 The system will not affect data stored outside of its servers nor will it affect any other applications installed on the user’s phone. It cannot cause any damage to the phone or its internal components. The only potential safety concern associated with this application applies to virtually all handset apps: E-payment system should not be used while operating a vehicle or in any other situation where the user’s attention must be focused elsewhere.
 
-**Security Requirements**
+**Security Requirements:**
 This application assumes that only the user or whoever is allowed will have access to the phone. a Google email address is required to verify the identity of the user upon opening the app and a password to authenticate the user’s identity’s transaction must be authorized and confirmed before becoming final. To ensure that no fraudulent transactions occur.
 
-**Software Quality Requirements**
+**Software Quality Requirements:**
 - The graphical user interface of the System is to be designed with usability as the priority. The app will be presented and organized in a manner that is both visually appealing and easy for the user to navigate. There will be feedback and visual cues such as notifications to inform users of updates and pop-ups to provide users with instructions.
 - To ensure reliability and correctness, there will be zero tolerance for errors in the algorithm that computes and splits expenses between group members. 
 - To maintain flexibility and adaptability, the app will take into account situations in which a user loses internet connection or for whatever reason cannot establish a connection with the server. These users will still be able to use the application, but any transactions posted while disconnected will be cached until the connection is restored.
